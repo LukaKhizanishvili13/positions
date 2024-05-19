@@ -1,3 +1,4 @@
+/* create navigation styles */
 nav{
     display: flex;
     justify-content: center;
@@ -23,3 +24,4 @@ ul>li{
     display: flex;
     gap: 30px;
 }
+/* navigation done */
