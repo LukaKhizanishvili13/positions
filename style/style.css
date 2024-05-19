@@ -1,12 +1,15 @@
 body{
     overflow-x:hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 /* create navigation styles */
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 610px;
+    gap: 200px;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -22,6 +25,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
     
 }
 .logo .right{
@@ -31,7 +35,6 @@ nav{
 }
 ul>li{
     display: flex;
-    gap: 30px;
 }
 ul>li>a{
     color: black;
@@ -59,7 +62,7 @@ ul>li>a{
 }
 .second-rectangle:hover{
     transition-duration: 0.3s;
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     color: gray;
     opacity: 0.7;
 }
@@ -92,4 +95,7 @@ ul>li>a{
 .arrow img{
     width: 30px;
     height: 30px;
+}
+.list-item-a{
+    margin-left: 90px;
 }
