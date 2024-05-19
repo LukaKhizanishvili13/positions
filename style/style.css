@@ -12,6 +12,7 @@ nav{
     z-index: 1;
     background-color: white;
     top: 0;
+    height: 85px;
 }
 .logo{
     width: 130px;
@@ -48,21 +49,26 @@ ul>li>a{
 }
 .second-rectangle{
     width: 847px;
-    height: 607px;
+    height: 587px;
     background-image: url(../img/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.webp);
     position: absolute;
-    top: 35vh;
+    top: 23vh;
     left: 25px;
     border: 15px solid white;
     padding: 10px;
 }
-
+.second-rectangle:hover{
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    color: gray;
+    opacity: 0.7;
+}
 .third-rectangle{
     position: absolute;
     width: 400px;
     height: 400px;
     border: 15px solid white;
-    top: 45vh;
+    top: 40vh;
     left: 58%;
     background-color: #E8E6E6;
 }
@@ -71,8 +77,9 @@ ul>li>a{
     flex-direction: column;
     justify-self: start;
     align-self: start;
-    font-size: 43px;
     margin-left: 20px;
+    font-size: 44px;
+    line-height: 60px;
 }
 .arrow{
     display: flex;
@@ -80,6 +87,7 @@ ul>li>a{
     align-items: center;
     gap: 10px;
     margin-left: 20px;   
+    cursor: pointer;
 }
 .arrow img{
     width: 30px;
