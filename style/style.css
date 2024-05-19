@@ -8,7 +8,10 @@ nav{
     align-items: center;
     gap: 610px;
     position: fixed;
-    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    top: 0;
 }
 .logo{
     width: 130px;
@@ -36,10 +39,36 @@ ul>li>a{
 /* main section */
 
 .firs-rectangle{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background-color: #CBDBC5;
     position: relative;
-    top: 20vh;
-    left: 62%;
+    top: 10vh;
+    left: 51%;
 }
+.second-rectangle{
+    width: 850px;
+    height: 500px;
+    background-image: url(../img/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.webp);
+    position: absolute;
+    top: 35vh;
+    left: 90px;
+    border: 15px solid white;
+}
+.third-rectangle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 15px solid white;
+    top: 45vh;
+    left: 58%;
+    background-color: #E8E6E6;
+}
+.third-rectangle h1{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-self: start;
+    font-size: 50px;
+}
+
