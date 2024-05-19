@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.logo{
+    width: 130px;
+    height: 40px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.logo .right{
+    width:30px ;
+    line-height: 10px;
+    font-size: 12px;
+}
+ul>li{
+    display: flex;
+    gap: 30px;
+}
