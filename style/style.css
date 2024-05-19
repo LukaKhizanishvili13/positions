@@ -3,7 +3,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 610px;
+    position: fixed;
+    padding: 20px;
 }
 .logo{
     width: 130px;
@@ -23,5 +25,8 @@ nav{
 ul>li{
     display: flex;
     gap: 30px;
+}
+ul>li>a{
+    color: black;
 }
 /* navigation done */
