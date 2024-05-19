@@ -40,21 +40,23 @@ ul>li>a{
 
 .firs-rectangle{
     width: 700px;
-    height: 700px;
+    height: 870px;
     background-color: #CBDBC5;
     position: relative;
     top: 10vh;
     left: 51%;
 }
 .second-rectangle{
-    width: 850px;
-    height: 500px;
+    width: 847px;
+    height: 607px;
     background-image: url(../img/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.webp);
     position: absolute;
     top: 35vh;
-    left: 90px;
+    left: 25px;
     border: 15px solid white;
+    padding: 10px;
 }
+
 .third-rectangle{
     position: absolute;
     width: 400px;
@@ -69,6 +71,17 @@ ul>li>a{
     flex-direction: column;
     justify-self: start;
     align-self: start;
-    font-size: 50px;
+    font-size: 43px;
+    margin-left: 20px;
 }
-
+.arrow{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;   
+}
+.arrow img{
+    width: 30px;
+    height: 30px;
+}
