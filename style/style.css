@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 /* create navigation styles */
 nav{
     display: flex;
@@ -30,3 +33,13 @@ ul>li>a{
     color: black;
 }
 /* navigation done */
+/* main section */
+
+.firs-rectangle{
+    width: 500px;
+    height: 500px;
+    background-color: #CBDBC5;
+    position: relative;
+    top: 20vh;
+    left: 62%;
+}
